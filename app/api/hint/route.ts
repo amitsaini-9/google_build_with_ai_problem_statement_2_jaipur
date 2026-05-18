@@ -18,7 +18,7 @@ Consider recent form, head-to-head, and venue factors. Be concise and give actio
       contents: [{ parts: [{ text: prompt }] }],
     });
 
-    const hint = response.response?.candidates?.[0]?.content?.parts?.[0]?.text || "Unable to generate hint";
+    const hint = response.candidates?.[0]?.content?.parts?.[0]?.text || "Unable to generate hint";
 
     return Response.json({ hint });
   } catch (error) {
