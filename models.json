@@ -1,0 +1,19 @@
+{
+  "gemini_models": [
+    {
+      "name": "models/gemini-3-flash-preview",
+      "displayName": "Gemini 3 Flash",
+      "use": "Trivia generation, predictions, quick AI responses"
+    },
+    {
+      "name": "models/gemini-3.1-pro-preview",
+      "displayName": "Gemini 3.1 Pro",
+      "use": "Deep match analysis, AI commentary"
+    },
+    {
+      "name": "models/gemini-3.1-flash-live-preview",
+      "displayName": "Gemini 3.1 Flash Live",
+      "use": "Real-time AI Watch Party friends via Live API"
+    }
+  ]
+}
